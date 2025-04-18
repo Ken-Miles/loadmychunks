@@ -57,3 +57,11 @@ processResources {
         expand props
     }
 }
+
+apply plugin: 'java'
+
+jar {
+    archiveBaseName = 'LoadMyChunks'
+    archiveVersion = '1.0.0'
+}
+

@@ -1,4 +1,4 @@
-name: LoadMyChunks
+name: JohnsHolyShitLoadChunksPluginWorkingMaybe
 version: '1.0-SNAPSHOT'
 main: org.snug.loadMyChunks.LoadMyChunksPlugin
 api-version: '1.21'

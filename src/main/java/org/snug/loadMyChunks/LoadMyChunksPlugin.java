@@ -1,10 +1,6 @@
 package org.snug.loadMyChunks;
 
 import com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent;
-import com.mojang.brigadier.CommandDispatcher;
-import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.suggestion.SuggestionsBuilder;
-import io.papermc.paper.command.brigadier.CommandSourceStack;
 import io.papermc.paper.command.brigadier.Commands;
 import io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager;
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
@@ -16,7 +12,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,12 +20,13 @@ import java.util.*;
 public final class LoadMyChunksPlugin extends JavaPlugin implements Listener {
     private final Set<TicketedChunk> ticketedChunks = new HashSet<TicketedChunk>();
 
-    public void addTicketedChunk(Chunk chunk, UUID playerUUID, boolean is_player) {
-        ticketedChunks.add(new TicketedChunk(chunk, playerUUID, is_player));
+    // returns true if it was added, false if already in list
+    public boolean addTicketedChunk(Chunk chunk, UUID playerUUID, boolean is_player) {
+        return ticketedChunks.add(new TicketedChunk(chunk, playerUUID, is_player));
     }
 
-    public void removeTicketedChunk(Chunk chunk) {
-        ticketedChunks.removeIf(tc -> tc.getChunk().equals(chunk));
+    public boolean removeTicketedChunk(Chunk chunk) {
+        return ticketedChunks.removeIf(tc -> tc.getChunk().equals(chunk));
     }
 
     public Set<TicketedChunk> getTicketedChunks() {
@@ -61,7 +57,7 @@ public final class LoadMyChunksPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
 
-        getLogger().info("Loading LoadMyFarms");
+        getLogger().info("Loading LoadMyChunks");
 
         // register events to make the help command work
         getServer().getPluginManager().registerEvents(this, this);
@@ -76,7 +72,9 @@ public final class LoadMyChunksPlugin extends JavaPlugin implements Listener {
             // Register the command we defined earlier
             commands.register(
                     LoadChunksCommand.build(), // This is the command built previously
-                    "loadmychunks"
+                    "loadmychunks",
+                    // make a list of aliases, but only lmc in it
+                    Collections.singletonList("lmc")
             );
         });
 
@@ -109,7 +107,7 @@ public final class LoadMyChunksPlugin extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-        getLogger().info("Saving LoadMyFarms");
+        getLogger().info("Saving LoadMyChunks");
 
         File file = new File(getDataFolder(), "chunks.yml");
         YamlConfiguration config = new YamlConfiguration();

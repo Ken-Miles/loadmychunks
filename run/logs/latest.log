@@ -1,115 +1,52 @@
-[20:08:07] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Azul Systems, Inc. Zulu21.40+17-CA) on Mac OS X 15.3 (aarch64)
-[20:08:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-226-ver/1.21.4@a838a88 (2025-04-17T19:20:57Z) for Minecraft 1.21.4
-[20:08:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:08:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[20:08:08] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - LoadMyChunks (1.0-SNAPSHOT)
-[20:08:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:08:13] [ServerMain/INFO]: Loaded 1370 recipes
-[20:08:13] [ServerMain/INFO]: Loaded 1481 advancements
-[20:08:13] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:08:13] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 184.8ms
-[20:08:14] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[20:08:14] [Server thread/INFO]: Loading properties
-[20:08:14] [Server thread/INFO]: This server is running Paper version 1.21.4-226-ver/1.21.4@a838a88 (2025-04-17T19:20:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[20:08:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:08:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:08:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:08:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[20:08:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:08:15] [Server thread/INFO]: Default game type: SURVIVAL
-[20:08:15] [Server thread/INFO]: Generating keypair
-[20:08:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:08:15] [Server thread/INFO]: Using default channel type
-[20:08:15] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[20:08:15] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[20:08:16] [Server thread/INFO]: [LoadMyChunks] Loading server plugin LoadMyChunks v1.0-SNAPSHOT
-[20:08:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:08:16] [Server thread/INFO]: Preparing level "world"
-[20:08:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:08:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:08:16] [Server thread/INFO]: Preparing spawn area: 22%
-[20:08:16] [Server thread/INFO]: Time elapsed: 677 ms
-[20:08:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:08:17] [Server thread/INFO]: Preparing spawn area: 0%
-[20:08:17] [Server thread/INFO]: Time elapsed: 77 ms
-[20:08:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:08:17] [Server thread/INFO]: Preparing spawn area: 0%
-[20:08:17] [Server thread/INFO]: Time elapsed: 60 ms
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Enabling LoadMyChunks v1.0-SNAPSHOT
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loading LoadMyFarms
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (633, 625) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (632, 625) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (633, 626) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (631, 625) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (632, 626) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (633, 627) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (631, 626) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (632, 627) in world
-[20:08:17] [Server thread/INFO]: [LoadMyChunks] Loaded chunk at (631, 627) in world
-[20:08:17] [Server thread/INFO]: [spark] Starting background profiler...
-[20:08:17] [Server thread/INFO]: Done preparing level "world" (1.870s)
-[20:08:17] [Server thread/INFO]: Running delayed init tasks
-[20:08:17] [Server thread/INFO]: Done (11.353s)! For help, type "help"
-[20:09:43] [User Authenticator #0/INFO]: UUID of player DerpSpecimen is f2014984-51d7-41ed-9d95-29b7b07e257d
-[20:09:45] [Server thread/INFO]: DerpSpecimen joined the game
-[20:09:45] [Server thread/INFO]: DerpSpecimen[/100.116.171.108:59025] logged in with entity id 157 at ([world]10118.132970752526, 74.14259831570074, 10013.618854893524)
-[20:09:55] [Server thread/INFO]: DerpSpecimen issued server command: /loadmyfarms load
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Loading chunk at (631, 624) in world
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Chunk (631, 625) is already loaded.
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Chunk (631, 626) is already loaded.
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Loading chunk at (632, 624) in world
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Chunk (632, 625) is already loaded.
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Chunk (632, 626) is already loaded.
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Loading chunk at (633, 624) in world
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Chunk (633, 625) is already loaded.
-[20:09:55] [Server thread/INFO]: [LoadMyChunks] Chunk (633, 626) is already loaded.
-[20:10:03] [Server thread/INFO]: DerpSpecimen issued server command: /loadmyfarms
-[20:10:11] [Server thread/INFO]: DerpSpecimen lost connection: Disconnected
-[20:10:11] [Server thread/INFO]: DerpSpecimen left the game
-[20:12:30] [Server thread/INFO]: Stopping server
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Disabling LoadMyChunks v1.0-SNAPSHOT
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving LoadMyFarms
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (633, 624) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (633, 625) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (632, 624) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (632, 625) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (633, 626) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (631, 624) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (631, 625) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (632, 626) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (633, 627) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (631, 626) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (632, 627) in world
-[20:12:30] [Server thread/INFO]: [LoadMyChunks] Saving chunk at (631, 627) in world
-[20:12:30] [Server thread/INFO]: Saving players
-[20:12:30] [Server thread/INFO]: Saving worlds
-[20:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:12:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:12:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:12:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Saved 674 block chunks, 674 entity chunks, 0 poi chunks in world 'world' in 2.51s
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:12:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:12:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:12:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:12:33] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[20:12:33] [Server thread/INFO]: All I/O tasks to complete
-[20:12:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:12:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:13:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Azul Systems, Inc. Zulu21.40+17-CA) on Windows 11 10.0 (amd64)
+[02:13:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-226-ver/1.21.4@a838a88 (2025-04-17T19:20:57Z) for Minecraft 1.21.4
+[02:13:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:13:35] [ServerMain/ERROR]: [PluginFlagProviderSource] Error loading plugin: [name] of type java.lang.String: name 'John'sHolyShitLoadMyChunksPlugin' contains invalid characters.
+org.spongepowered.configurate.serialize.SerializationException: [name] of type java.lang.String: name 'John'sHolyShitLoadMyChunksPlugin' contains invalid characters.
+	at io.papermc.paper.plugin.provider.configuration.serializer.constraints.PluginConfigConstraints$PluginName$Factory.lambda$make$0(PluginConfigConstraints.java:42) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at org.spongepowered.configurate.objectmapping.FieldData.validate(FieldData.java:131) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load0(ObjectMapperImpl.java:78) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load(ObjectMapperImpl.java:56) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperFactoryImpl.deserialize(ObjectMapperFactoryImpl.java:230) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.AbstractConfigurationNode.get0(AbstractConfigurationNode.java:204) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.AbstractConfigurationNode.get(AbstractConfigurationNode.java:162) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.ConfigurationNode.get(ConfigurationNode.java:521) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.ConfigurationNode.require(ConfigurationNode.java:408) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at io.papermc.paper.plugin.provider.configuration.PaperPluginMeta.create(PaperPluginMeta.java:120) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.create(PaperPluginProviderFactory.java:52) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.create(PaperPluginProviderFactory.java:23) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.getConfig(PluginFileType.java:78) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:89) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.provider.source.PluginFlagProviderSource.registerProviders(PluginFlagProviderSource.java:42) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.provider.source.PluginFlagProviderSource.registerProviders(PluginFlagProviderSource.java:14) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:118) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at net.minecraft.server.Main.main(Main.java:111) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-226-a838a88]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[02:13:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[02:13:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:13:41] [ServerMain/INFO]: Loaded 1370 recipes
+[02:13:41] [ServerMain/INFO]: Loaded 1481 advancements
+[02:13:41] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[02:13:41] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 146.3ms
+[02:13:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[02:13:41] [Server thread/INFO]: Loading properties
+[02:13:41] [Server thread/INFO]: This server is running Paper version 1.21.4-226-ver/1.21.4@a838a88 (2025-04-17T19:20:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[02:13:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:13:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:13:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:13:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[02:13:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[02:13:42] [Server thread/INFO]: Default game type: SURVIVAL
+[02:13:42] [Server thread/INFO]: Generating keypair
+[02:13:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:13:42] [Server thread/INFO]: Using default channel type
+[02:13:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[02:13:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:13:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:13:42] [Server thread/INFO]: Preparing level "world"
+[02:13:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:13:43] [Server thread/INFO]: Preparing spawn area: 0%
